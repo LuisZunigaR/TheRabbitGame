@@ -4,11 +4,13 @@ There is a rabbit (or other hopping animal you can draw) at the bottom of a set 
 
 Example - 4 steps
 
+```
 1-1-1-1 = 4
 2-1-1 = 4
 1-2-1 = 4
 1-1-2 = 4
 2-2 = 4
+```
 
 So for 4 steps, there are 5 possible different combinations of 1-2 hops to reach the top.
 
@@ -17,5 +19,7 @@ So for 4 steps, there are 5 possible different combinations of 1-2 hops to reach
 
 Given an amount of money as a float, format it as a string.
 
-formatMoney(2310000.159897); // '2 310 000.16'
-formatMoney(1600); // '1 600.00'
+```
+formatMoney(2310000.159897) // '2 310 000.16'
+formatMoney(1600) // '1 600.00'
+```
