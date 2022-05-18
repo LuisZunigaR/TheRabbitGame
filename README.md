@@ -11,3 +11,11 @@ Example - 4 steps
 2-2 = 4
 
 So for 4 steps, there are 5 possible different combinations of 1-2 hops to reach the top.
+
+
+## Money Formatting
+
+Given an amount of money as a float, format it as a string.
+
+formatMoney(2310000.159897); // '2 310 000.16'
+formatMoney(1600); // '1 600.00'
