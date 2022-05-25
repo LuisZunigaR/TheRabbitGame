@@ -1,4 +1,4 @@
-## Alphanumeric String Sort
+# Alphanumeric String Sort
 
 Given a string containing alphanumeric ASCII characters only ([A-Za-z0-9]), sort and print the string in the following manner:
 
@@ -7,7 +7,7 @@ Given a string containing alphanumeric ASCII characters only ([A-Za-z0-9]), sort
 - all sorted even digits are ahead of sorted odd digits.
 
 
-## Sum of Array Plus One
+# Sum of Array Plus One
 
 Write a function that takes an array of integers and returns the sum of the integers after adding 1 to each.
 
