@@ -1,21 +1,14 @@
-## The Rabbit Question
+## Alphanumeric String Sort
 
-There is a rabbit (or other hopping animal you can draw) at the bottom of a set of stairs. The rabbit can hop up one step at a time to reach the top, or he can hop up two steps at a time. How many different combinations of hops are there for n steps. Write an algorithm to calculate the number of hop combinations for n steps.
+Given a string containing alphanumeric ASCII characters only ([A-Za-z0-9]), sort and print the string in the following manner:
 
-Example - 4 steps
-
-1-1-1-1 = 4
-2-1-1 = 4
-1-2-1 = 4
-1-1-2 = 4
-2-2 = 4
-
-So for 4 steps, there are 5 possible different combinations of 1-2 hops to reach the top.
+- all sorted lowercase letters are ahead of uppercase letters,
+- all sorted uppercase letters are ahead of digits, and
+- all sorted even digits are ahead of sorted odd digits.
 
 
-## Money Formatting
+## Sum of Array Plus One
 
-Given an amount of money as a float, format it as a string.
+Write a function that takes an array of integers and returns the sum of the integers after adding 1 to each.
 
-formatMoney(2310000.159897); // '2 310 000.16'
-formatMoney(1600); // '1 600.00'
+plusOneSum([1, 2, 3, 4]); // 14
