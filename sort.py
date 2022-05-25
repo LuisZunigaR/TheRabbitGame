@@ -1,4 +1,4 @@
-def sort(sentence):
+def AlphanumericStringSort(sentence):
     sorted_sentence = []
     tmplower = []
     tmpupper = []
@@ -21,5 +21,5 @@ def sort(sentence):
     sorted_sentence =  tmplower + tmpupper + tmpnumber
     return "".join(sorted_sentence)
 
-res = sort("2346asadfsGFAIKSM")
+res = AlphanumericStringSort("2346asadfsGFAIKSM")
 print(res)
